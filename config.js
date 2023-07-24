@@ -3,9 +3,9 @@ import fs from "fs"
 
 // limit
 const limit = {
-   free: 25,
-   premium: 250,
-   VIP: "Infinity",
+   free: 100,
+   premium: 500,
+   VIP: "Unlimited",
    download: {
       free: 30000000, // use byte
       premium: 100000000, // use byte
@@ -45,25 +45,25 @@ export default {
    options: {
       public: true,
       URI: "database.json", // use mongo or file json
-      owner: ["6288292024190", "62858156631709"],
+      owner: ["6285892734101"],
       pathCommand: 'commands'
    },
 
    Exif: {
-      packId: "https://instagram.com/cak_haho",
+      packId: "https://instagram.com/dede_klender",
       packName: `Sticker ini Dibuat Oleh :`,
-      packPublish: "Dika Ardnt.",
-      packEmail: "dika.ardianta7@yahoo.com",
-      packWebsite: "https://instgaram.com/cak_haho",
-      androidApp: "https://play.google.com/store/apps/details?id=com.bitsmedia.android.muslimpro",
-      iOSApp: "https://apps.apple.com/id/app/muslim-pro-al-quran-adzan/id388389451?|=id",
+      packPublish: "Akebi Bot",
+      packEmail: "dev@akebi.eu.org",
+      packWebsite: "https://instgaram.com/ded_klender",
+      androidApp: "",
+      iOSApp: "",
       categories: ['😹', '😎', '😱'],
       isAvatar: 0
    },
 
    session: {
       Path: "session",
-      Name: "hisoka"
+      Name: ""
    }
 }
 
