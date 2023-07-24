@@ -32,7 +32,7 @@ export default {
 
             m.reply(`*Command Info :*\n\n${data.join("\n")}`)
         } else {
-            let teks = `Hai @${m.sender.split("@")[0]}, Ini Adalah Daftar Perintah Yang Tersedia\n\n`
+            let teks = `Halo kak @${m.sender.split("@")[0]}, Ini Adalah Daftar Perintah Yang Tersedia\n\n`
 
             const tag = Array.from(commands.values())
             const list = {}
@@ -51,15 +51,15 @@ export default {
                 teks += `└───────⭓\n\n`
             }).join('\n\n')
 
-            hisoka.sendMessage(m.from, 'https://dafunda.com/wp-content/uploads/2021/01/Karakter-Hunter-x-Hunter-Yang-Kuat-Menurut-Hisoka.jpg', {
+            hisoka.sendMessage(m.from, 'https://genix.eu.org/akebi.jpg', {
                 caption: teks,
                 quoted: m,
                 mentions: hisoka.parseMention(teks),
                 extra: {
                     ctwaContext: {
                         title: hisoka.info.pushname,
-                        sourceUrl: 'https://instagram.com/cak_haho',
-                        thumbnail: (await Func.getFile('https://dafunda.com/wp-content/uploads/2021/01/Karakter-Hunter-x-Hunter-Yang-Kuat-Menurut-Hisoka.jpg')).data.toString('base64'),
+                        sourceUrl: 'https://instagram.com/dede_klender',
+                        thumbnail: (await Func.getFile('https://genix.eu.org/akebi.jpg')).data.toString('base64'),
                         mediaType: 1
                     }
                 }
